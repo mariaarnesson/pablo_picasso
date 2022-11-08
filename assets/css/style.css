@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+
 body {
-    background-image: url(../image/pencil\ \(2\).jpeg);
-    font-family: Helvetica, sans-serif;
+    background-position: 0in;
+    font-family: Lato, sans-serif;
+    background-color:#FF9F55; 
   }
   background-image {
     background-repeat: no-repeat;
@@ -9,6 +12,10 @@ body {
 }
 nav {
 	padding: 1rem;
+  background-color: black;
+  border-style: solid;
+  text-align: center;
+  box-sizing: border-box;
 }
 
 nav > a {
@@ -36,7 +43,7 @@ nav > a:hover {
         height: 300px;
         padding-top: 40px;
         padding-left: 10px;
-        background-color: rgba(107, 183, 241, 0.7);
+        background-color: rgba(117, 123, 128, 0.345);
         bottom: 90px;
         right: 150px;
         position: absolute;
@@ -45,12 +52,88 @@ nav > a:hover {
     color: #fff;
 }
 
-#pablo-image > h1 {
-    text-align: center;
+h1 {
+  font-size: 400%;
+  font-family:Kolker+Brush, cursive;
+  color:black;
+  text-align: center;
+  text-decoration:solid;
+  text-transform:none;
+  
 }
+h2 {
+  font-family: Dancing-script;
+  text-align: center center;
+  text-emphasis:inherit;
+  letter-spacing: 8px;
+  margin-top: 0%;
+}
+#art {
+  height: 400px;
+  width: 100%;
+  position: relative;
+}
+
+#magia {
+  height: 400px;
+  width: 100%;
+    background-image: url(../image/perfect.background\ \(2\).jpg);
+    background-repeat: no-repeat;
+    margin-top: 20;
+    margin-right: 20px;
+}
+  #beige {
+    background-color: beige;
+    text-align: center center;
+    margin: 0px;
+    width: 1500px;
+    height: 2000px;
+    padding-top: 0%;
+  }
+
+  #image {
+    width: 1px;
+    height: 50%;
+    position:relative;
+    right: 20px;
+    left: 60%;
+    top: 16px;
+    display: block;
+  }
+
 #color {
-    background-color: antiquewhite;
     position: relative;
+    top: -120px;
+    left: 30%;
+    right: 50px;  
+    width: 30% ;
+    padding:0% ;
+    display: block;
+    margin: 40px;
+    text-align: center center;
+    bottom: 80%;
+    
+    
+}
+
+#me {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 120px;
+  width: 350px;
+  height: 350px;
+  bottom: -120px;
+}
+
+
+
+
+#portrait {
+  margin: 20px;
+  top: 20px;
+  width: 20px;
+  height: 20px;
+  bottom: 80px;
 }
 * {
     box-sizing: border-box;
@@ -146,7 +229,7 @@ nav > a:hover {
   /* The actual content */
   .content {
     padding: 20px 30px;
-    background-color: white;
+    background-color: #fff;
     position: relative;
     border-radius: 6px;
   }
@@ -182,4 +265,85 @@ nav > a:hover {
     .right {
       left: 0%;
     }
-  }
+  
+    #next-page {
+      height: 400px;
+      width: 100%;
+      position: relative;
+    }
+    
+    #glad {
+      height: 400px;
+      width: 100%;
+        background-image: url(../image/glad.jpg);
+        background-repeat: no-repeat;
+        margin-top: 20;
+        margin-right: 20px;
+    }
+  footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color:beige;
+}
+
+/* email */
+fieldset {
+	border: none;
+	margin-top: 20px;
+}
+input[type=submit] {
+	margin-top: 20px;
+	margin-left: 0.75rem;
+	padding: 0.75rem;
+	background-color: #5e361b;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+input[type=text],
+input[type=email] {
+    height: 30px;
+    width: 90%;
+    padding-left: 10px;
+    margin: 0 auto;
+}
+select {
+  height: 30px;
+  width: 100px;
+  padding-left: 10px;
+}
+
+form {
+width: 700px;
+padding: 25px;
+border-radius: 8px;
+margin: 25px auto;
+background-color: white;
+}
+.block-label {
+	display: block;
+}
+
+legend {
+	font-size: large;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 20px 0 10px 0;
+}
+
+label {
+    margin: 10px 15px 5px 0;
+}
