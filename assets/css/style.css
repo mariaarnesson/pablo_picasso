@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
 
+title {
+  text-align: center;
+  text-decoration: solid;
+  color: #524d496d; 
+  font-family:Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
 body {
     background-position: 0in;
     font-family: Lato, sans-serif;
@@ -55,7 +62,7 @@ nav > a:hover {
 h1 {
   font-size: 400%;
   font-family:Kolker+Brush, cursive;
-  color:black;
+  color:rgba(0, 0, 0, 0.284);
   text-align: center;
   text-decoration:solid;
   text-transform:none;
@@ -297,53 +304,4 @@ h2 {
     margin: 1%;
     padding: 5%;
     color:beige;
-}
-
-/* email */
-fieldset {
-	border: none;
-	margin-top: 20px;
-}
-input[type=submit] {
-	margin-top: 20px;
-	margin-left: 0.75rem;
-	padding: 0.75rem;
-	background-color: #5e361b;
-	color: white;
-	border: none;
-	border-radius: 5px;
-}
-input[type=text],
-input[type=email] {
-    height: 30px;
-    width: 90%;
-    padding-left: 10px;
-    margin: 0 auto;
-}
-select {
-  height: 30px;
-  width: 100px;
-  padding-left: 10px;
-}
-
-form {
-width: 700px;
-padding: 25px;
-border-radius: 8px;
-margin: 25px auto;
-background-color: white;
-}
-.block-label {
-	display: block;
-}
-
-legend {
-	font-size: large;
-	font-weight: 600;
-	text-transform: uppercase;
-	margin: 20px 0 10px 0;
-}
-
-label {
-    margin: 10px 15px 5px 0;
 }
