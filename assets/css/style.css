@@ -1,25 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
-title {
-  text-align: center;
-  text-decoration: solid;
-  color: #524d496d; 
-  font-family:Arial, Helvetica, sans-serif;
-  text-transform: uppercase;
-}
 body {
     background-position: 0in;
-    font-family: Lato, sans-serif;
-    background-color:#FF9F55; 
-  }
-  background-image {
-    background-repeat: no-repeat;
-    width: 1200px;
-    height: 1200px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #a69c95; 
 }
 nav {
 	padding: 1rem;
-  background-color: black;
+  background-color:#3a3a3a;
   border-style: solid;
   text-align: center;
   box-sizing: border-box;
@@ -35,10 +23,6 @@ nav > a:hover {
 	color: silver;
 }
 
-/* pablo image */
-#pablo-imge {
-    left: 30%;
-}
 /* text rosa */
 
     #cover-text {
@@ -50,7 +34,7 @@ nav > a:hover {
         height: 300px;
         padding-top: 40px;
         padding-left: 10px;
-        background-color: rgba(117, 123, 128, 0.345);
+        background-color: rgba(142, 179, 158, 0.511);
         bottom: 90px;
         right: 150px;
         position: absolute;
@@ -60,12 +44,12 @@ nav > a:hover {
 }
 
 h1 {
-  font-size: 400%;
-  font-family:Kolker+Brush, cursive;
+  font-size: 200%;
+  font-family:cursive;
   color:rgba(0, 0, 0, 0.284);
   text-align: center;
   text-decoration:solid;
-  text-transform:none;
+  text-transform: none;
   
 }
 h2 {
@@ -82,48 +66,55 @@ h2 {
 }
 
 #magia {
-  height: 600px;
-  width: 100%;
-    background-image: url(../image/perfect.background\ \(2\).jpg);
+  height: 450px;
+  width: 1500;
+    background-image:url(../image/love.webp);
     background-repeat: no-repeat;
-    margin-top: 20;
-    margin-right: 20px;
+    margin-top: 30px;
+    margin-right: 800px;
+    margin-left: 100px;
 }
   #beige {
-    background-color: beige;
+    background-image:url(../image/pexels-photo-5208694.jpeg);
+    background-repeat: no-repeat;
     text-align: center center;
-    margin: 0px;
+    margin-top: 50px;
+    margin-left: 40px;
     width: 1500px;
-    height: 1600px;
-    padding-top: 0%;
+    height: 1000px;
+    padding-top: -5000%;
+    bottom: -500px;
   }
-
-  #image {
-    width: 1px;
-    height: 50%;
-    position:relative;
-    right: 20px;
-    left: 60%;
-    top: 16px;
-    display: block;
-  }
-
-#color {
+  #color {
     position: relative;
-    top: -120px;
-    left: 30%;
-    right: 50px;  
-    width: 30% ;
-    padding:0% ;
+    top: 60px;
+    left: 50px;
+    right: 50px;
+    width: 30%;
+    padding: 0%;
     display: block;
     margin: 40px;
     text-align: center center;
     bottom: 80%;
-    
-    
-}
+    margin-right: 0%;
+  }
+#color-2 { 
+  position: relative;
+  top: -550px;
+  left: 500px;
+  right: 3000px;
+  width: 30%;
+  padding: 0%;
+  display: block;
+  margin: 80px;
+  text-align: center center;
+  bottom: 0%;
+  margin-right: 500px;
 
-#me {
+
+}
+#1{
+  background-image: url(../image/bd65e409623beb6da7da1416599f02d4.jpg);
   margin-left: 50px;
   margin-right: 50px;
   margin-top: 120px;
@@ -131,182 +122,61 @@ h2 {
   height: 350px;
   bottom: -120px;
 }
-#mleko {
-  margin-left: 120px;
-  margin-right: 60px;
-  margin-top: 130px;
+
+
+
+.a {
+  margin-left: 180px;
+  margin-right: 120px;
+  margin-top: 120px;
   width: 350px;
   height: 350px;
-  bottom: -110px;
-  background-color: azure;
-  position:inherit;
-  
+  bottom: -120px;
+  border-style: solid;
+}
+.b {
+  margin-left: 220px;
+margin-right: 100px;
+margin-top: 120px;
+width: 350px;
+height: 350px;
+bottom: -120px;
+border-style: solid;
 }
 
 
-
-#portrait {
-  margin: 20px;
-  top: 20px;
-  width: 20px;
-  height: 20px;
-  bottom: 80px;
-}
-* {
-    box-sizing: border-box;
+footer {
+      height: 150px;
   }
   
-  /* Set a background color */
-
-  
-  /* The actual timeline (the vertical ruler) */
-  .timeline {
-    position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
+  .social-networks {
+      text-align: center;
   }
   
-  /* The actual timeline (the vertical ruler) */
-  .timeline::after {
-    content: '';
-    position: absolute;
-    width: 6px;
-    background-color:beige;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -3px;
+  .social-networks > li {
+      display: inline;
   }
   
-  /* Container around content */
-  .container {
-    padding: 10px 40px;
-    position: relative;
-    background-color: inherit;
-    width: 50%;
+  .social-networks i {
+      font-size: 160%;
+      margin: 1%;
+      padding: 5%;
+      color: #3a3a3a;
   }
   
-  /* The circles on the timeline */
-  .container::after {
-    content: '';
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    right: -17px;
-    background-color:beige;
-    border: 4px solid #FF9F55;
-    top: 15px;
-    border-radius: 50%;
-    z-index: 1;
-  }
-  
-  /* Place the container to the left */
-  .left {
-    left: 0;
-  }
-  
-  /* Place the container to the right */
-  .right {
-    left: 50%;
-  }
-  
-  /* Add arrows to the left container (pointing right) */
-  .left::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    right: 30px;
-    border: medium solid white;
-    border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent white;
-  }
-  
-  /* Add arrows to the right container (pointing left) */
-  .right::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    left: 30px;
-    border: medium solid white;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
-  }
-  
-  /* Fix the circle for containers on the right side */
-  .right::after {
-    left: -16px;
-  }
-  
-  /* The actual content */
-  .content {
-    padding: 20px 30px;
-    background-color: #fff;
-    position: relative;
-    border-radius: 6px;
-  }
-  
-  /* Media queries - Responsive timeline on screens less than 600px wide */
-  @media screen and (max-width: 600px) {
-  /* Place the timelime to the left */
-    .timeline::after {
-      left: 31px;
-    }
-  
-  /* Full-width containers */
-    .container {
-      width: 100%;
-      padding-left: 70px;
-      padding-right: 25px;
-    }
-  
-  /* Make sure that all arrows are pointing leftwards */
-    .container::before {
-      left: 60px;
-      border: medium solid white;
-      border-width: 10px 10px 10px 0;
-      border-color: transparent white transparent transparent;
-    }
-  
-  /* Make sure all circles are at the same spot */
-    .left::after, .right::after {
-      left: 15px;
-    }
-  
-  /* Make all right containers behave like the left ones */
-    .right {
-      left: 0%;
-    }
-  
-    #next-page {
-      height: 400px;
-      width: 100%;
-      position: relative;
-    }
     
-    #glad {
-      height: 400px;
-      width: 100%;
-        background-image: url(../image/glad.jpg);
-        background-repeat: no-repeat;
-        margin-top: 20;
-        margin-right: 20px;
-    }
-  footer {
-    height: 150px;
-}
+
 
 .social-networks {
     text-align: center;
+    height: 150px;
+    background-color:#3a3a3a;
 }
 
-.social-networks > li {
+.social-networks > div {
     display: inline;
+    color:#a69c95;
+    text-align: center;
 }
 
 .social-networks i {
@@ -314,4 +184,65 @@ h2 {
     margin: 1%;
     padding: 5%;
     color:beige;
+}
+#lina{
+  background-color: #fff;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  right: 150px;
+  width: 300px;
+  height: 200px;
+  padding: 0%;
+  display: block;
+  margin: 40px;
+  text-align: center center;
+  bottom: 80%;
+  border-style: solid;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#sina{
+  background-color: rgba(203, 78, 165, 0.855);
+  position: relative;
+  top: 0px;
+  left: 400px;
+  right: -190px;
+  width: 300px;
+  height: 200px;
+  padding: 0%;
+  display: block;
+  margin: 40px;
+  text-align: center center;
+  bottom: 80%;
+  border-style: solid;
+}
+
+#blue {
+  font-size: 130%;
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  width: 300px;
+  height: 5000px;
+  padding-top: 1000px;
+  padding-left: 10px;
+  background-color: rgba(142, 179, 158, 0.511);
+  bottom: 10px;
+  right: 150px;
+  position: absolute;
+  }
+#sina {
+  
+
+    
+    border-style: solid;
+    text-align: center;
+    box-sizing: border-box;
+}
+red > div {
+	text-decoration: none;
+	color: beige;
+	margin: 1rem;
 }
