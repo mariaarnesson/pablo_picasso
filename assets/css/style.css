@@ -23,7 +23,7 @@ nav > a:hover {
 	color: silver;
 }
 
-/* text rosa */
+/* description */
 
     #description {
         font-size: 150%;
@@ -253,4 +253,23 @@ footer {
    margin-left: 700px;
    margin-right: 500px;
    margin-top: 0px;
+}
+/* Media queries */
+
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+  #start{
+    width: 65% auto;
+  
+  }
+  #first-picture{
+    width: 65%;
+  }
+  #discription {
+    width: 65%;
+    margin-bottom: -50px;
+  }
+  .social-networks {
+    columns: 2;
+  }
 }
